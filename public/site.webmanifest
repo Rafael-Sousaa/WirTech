@@ -1,0 +1,15 @@
+{
+  "name": "WIR-TECH",
+  "short_name": "WIR-TECH",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/android-chrome-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ff0000",
+  "background_color": "#ff0000",
+  "display": "standalone"
+}
