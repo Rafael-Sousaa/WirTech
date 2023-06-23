@@ -50,7 +50,7 @@ export const Servicos = () => {
           paragrafo="Um site institucional é uma plataforma online que representa uma organização, empresa ou instituição. Geralmente contém informações sobre a história, missão, visão e valores da entidade. Também pode fornecer detalhes sobre produtos, serviços, equipes e contatos relevantes. Além disso, um site institucional é projetado para transmitir uma imagem profissional e estabelecer credibilidade junto aos visitantes."
           titulo="SITE-INSTITUCIONAL"
           botao="QUERO SITE INSTITUCIONAL"
-          onClick={() => navigate("/exemplos/site-institucional")}
+          onClick={() => navigate("/exemplos/SITE-INSTITUCIONAL")}
         />
 
         <Card
@@ -60,7 +60,7 @@ export const Servicos = () => {
           titulo="E-COMMERCE"
           ladoFoto="left"
           botao="QUERO UM E-COMMERCE"
-          onClick={() => navigate("/exemplos/e-commerce")}
+          onClick={() => navigate("/exemplos/E-COMMERCE")}
         />
         <Card
           id="BLOG"
@@ -68,7 +68,7 @@ export const Servicos = () => {
           paragrafo=" Um blog é um site dedicado à publicação de conteúdo regular e atualizado, organizado em formato de artigos ou posts. Geralmente, um blog aborda um tema específico e oferece informações, opiniões, tutoriais ou histórias relacionadas a esse assunto. Os leitores podem interagir através de comentários e compartilhar o conteúdo em redes sociais. Um blog é uma plataforma eficaz para compartilhar conhecimento, construir uma comunidade e estabelecer autoridade em determinada área."
           titulo="BLOG"
           botao="QUERO UM BLOG"
-          onClick={() => navigate("/exemplos/blog")}
+          onClick={() => navigate("/exemplos/BLOG")}
         />
         <Card
           id="LANDING-PAGES"
@@ -77,7 +77,7 @@ export const Servicos = () => {
           titulo="LANDING-PAGES"
           ladoFoto="left"
           botao="QUERO UMA LANDING PAGES"
-          onClick={() => navigate("/exemplos/landing-pages")}
+          onClick={() => navigate("/exemplos/LANDING-PAGES")}
         />
       </div>
     </>

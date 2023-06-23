@@ -82,7 +82,7 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos")}
+              onClick={() => navigate("/servicos#SITE-INSTITUCIONAL")}
               className="w-full"
             >
               Site Institucional
@@ -98,7 +98,7 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos")}
+              onClick={() => navigate("/servicos#E-COMMERCE")}
               className="w-full"
             >
               E-COMMERCE
@@ -114,7 +114,7 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos")}
+              onClick={() => navigate("/servicos#BLOG")}
               className="w-full"
             >
               BLOG
@@ -130,7 +130,7 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos")}
+              onClick={() => navigate("/servicos#LANDING-PAGES")}
               className="w-full"
             >
               LANDING PAGES

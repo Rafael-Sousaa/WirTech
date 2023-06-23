@@ -2,7 +2,7 @@ import { Card } from "../../Card";
 
 export const SiteInstitucional = () => {
   return (
-    <div>
+    <div id="site-institucional">
       <Card
         id=""
         site="https://www.cat.com/pt_BR.html"

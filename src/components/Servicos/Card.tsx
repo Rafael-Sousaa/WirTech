@@ -1,6 +1,8 @@
 import { Button } from "@mui/material";
 import { FC, ReactNode } from "react";
+
 interface CardProps {
+  name?: string;
   id: string;
   titulo?: string;
   paragrafo: string | ReactNode;
@@ -16,7 +18,6 @@ interface CardProps {
 
 export const Card: FC<CardProps> = ({
   id,
-
   titulo,
   site,
   descricao,
@@ -62,13 +63,13 @@ export const Card: FC<CardProps> = ({
 
         <div>
           <img src={foto} width={larguraImagem ?? 500} />
-          <div className="mt-5 mx-auto">
+          <div className="mt-5 md:mx-auto ">
             <a
               href={site}
               target="_blank"
               className="text-[#3694bf]  uppercase   "
             >
-              <p className="border-b border-transparent hover:border-gray-500 max-w-min mx-auto ">
+              <p className="border-b border-transparent hover:border-gray-500 max-w-min mx-auto text-[16px] ">
                 {descricao}
               </p>
             </a>

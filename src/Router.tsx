@@ -1,20 +1,21 @@
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import { Suspense } from "react";
-import { Header } from "./components/Header/Header";
+
 import { Home } from "./components/Home/Home";
 import { Sobre } from "./components/Sobre/Sobre";
-import { NotFout } from "./components/NotFout/NotFout";
+import { NotFound } from "./components/NotFound/NotFound";
 import { Servicos } from "./components/Servicos/Servicos";
 import { Contato } from "./components/Contato/Contato";
 
 import { ExemplosSite } from "./components/Servicos/Pages/ExemplosSite";
+import { Template } from "./components/Template/Template";
 
 export const Router = () => {
   return (
     <BrowserRouter>
       <Suspense fallback={<Outlet />}>
         <Routes>
-          <Route element={<Header />}>
+          <Route element={<Template />}>
             <Route element={<Home />} path="/" />
             <Route element={<Servicos />} path="/servicos" />
             <Route element={<Sobre />} path="/sobre" />
@@ -22,7 +23,7 @@ export const Router = () => {
 
             <Route element={<ExemplosSite />} path="/exemplos/:id" />
           </Route>
-          <Route element={<NotFout />} path="*" />
+          <Route element={<NotFound />} path="*" />
         </Routes>
       </Suspense>
     </BrowserRouter>
