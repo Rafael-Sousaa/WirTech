@@ -12,7 +12,6 @@ export const Contato = () => {
   const [email, setEmail] = useState("");
   const [telefone, setTelefone] = useState("");
   const [mensagem, setMensagem] = useState("");
-  const [outros, setOutros] = useState("");
 
   const handleSubmit = () => {
     if (nome && email && telefone && mensagem) {
@@ -21,7 +20,7 @@ export const Contato = () => {
       setEmail("");
       setTelefone("");
       setMensagem("");
-      setOutros("");
+
       setOpcao(null);
     } else {
       toast.error("Por favor, preencha todos os campos.");
@@ -91,7 +90,7 @@ export const Contato = () => {
           <Autocomplete
             disablePortal
             options={options}
-            onChange={(event, value) => {
+            onChange={(_event, value) => {
               setOpcao(value?.value ?? null);
             }}
             renderInput={(params) => (
@@ -110,9 +109,6 @@ export const Contato = () => {
             name="$outros"
             type="text"
             required={opcao === "Outros"}
-            onChange={(e) => {
-              setOutros(e.target.value);
-            }}
           />
 
           <TextField
