@@ -41,7 +41,7 @@ export const Contato = () => {
       <div>
         <h1 className="text-center my-10 uppercase">Insira seus Dados</h1>
         <form
-          className="flex flex-col md:w-[700px] gap-3 mx-auto my-5"
+          className="flex flex-col md:w-[700px] gap-3 md:mx-auto my-5 mx-5"
           action="https://api.staticforms.xyz/submit"
           method="post"
         >
