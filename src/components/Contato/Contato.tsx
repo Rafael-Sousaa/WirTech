@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const Contato = () => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [opcao, setOpcao] = useState<any>(null);
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");

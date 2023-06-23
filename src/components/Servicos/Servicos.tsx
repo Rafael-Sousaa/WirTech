@@ -45,9 +45,9 @@ export const Servicos = () => {
         </div>
 
         <Card
-          id="home"
+          id="SITE-INSTITUCIONAL"
           foto="/site-institucional1.png"
-          paragrafo=" Um site institucional é uma plataforma online que representa uma organização, empresa ou instituição. Geralmente contém informações sobre a história, missão, visão e valores da entidade. Também pode fornecer detalhes sobre produtos, serviços, equipes e contatos relevantes. Além disso, um site institucional é projetado para transmitir uma imagem profissional e estabelecer credibilidade junto aos visitantes."
+          paragrafo="Um site institucional é uma plataforma online que representa uma organização, empresa ou instituição. Geralmente contém informações sobre a história, missão, visão e valores da entidade. Também pode fornecer detalhes sobre produtos, serviços, equipes e contatos relevantes. Além disso, um site institucional é projetado para transmitir uma imagem profissional e estabelecer credibilidade junto aos visitantes."
           titulo="SITE-INSTITUCIONAL"
           botao="QUERO SITE INSTITUCIONAL"
           onClick={() => navigate("/exemplos/site-institucional")}

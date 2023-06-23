@@ -5,7 +5,7 @@ export const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <>
+    <div>
       <div className="flex flex-col  md:grid md:grid-cols-2  mx-5 md:h-screen items-center ">
         <div className="md:w-[530px] ">
           <h1 className="flex md:text-9xl text-2xl font-medium break-words">
@@ -82,8 +82,8 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos#SITE-INSTITUCIONAL")}
-              className="w-full "
+              onClick={() => navigate("/servicos")}
+              className="w-full"
             >
               Site Institucional
             </Button>
@@ -98,7 +98,7 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos#E-COMMERCE")}
+              onClick={() => navigate("/servicos")}
               className="w-full"
             >
               E-COMMERCE
@@ -114,7 +114,7 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos#BLOG")}
+              onClick={() => navigate("/servicos")}
               className="w-full"
             >
               BLOG
@@ -130,7 +130,7 @@ export const Home = () => {
                   color: "#3694bf",
                 },
               }}
-              onClick={() => navigate("/servicos#LANDING-PAGES")}
+              onClick={() => navigate("/servicos")}
               className="w-full"
             >
               LANDING PAGES
@@ -138,6 +138,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

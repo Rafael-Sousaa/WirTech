@@ -5,12 +5,12 @@ export const NotFout = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen bg-black text-white">
-        <span>404</span>
-        <div>
-          <img src="/gabimarugif.gif" />
-        </div>
-        <h1>Ops! Página não encontrada.</h1>
+      <div className="flex flex-col items-center justify-center h-screen bg-[#3694bf] text-[#dcdcdc]">
+        <span className="text-[100px]">404</span>
+
+        <h1 className="text-[50px] text-[#dcdcdc] text-center mb-5">
+          Ops! Página não encontrada.
+        </h1>
 
         <p>Tem certeza de que era isso que você estava procurando?</p>
 

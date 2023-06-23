@@ -16,6 +16,7 @@ interface CardProps {
 
 export const Card: FC<CardProps> = ({
   id,
+
   titulo,
   site,
   descricao,
@@ -38,6 +39,7 @@ export const Card: FC<CardProps> = ({
         <div className="flex flex-col ">
           <h1>{titulo}</h1>
           <p className="md:w-[500px] ">{paragrafo}</p>
+
           {variant === "buttonUp" && botao ? (
             <div className="my-5 animate-bounce animate-duration-2 animate-delay-1 animate-iteration-infinite  mt-5 gap-5 flex ">
               <Button
