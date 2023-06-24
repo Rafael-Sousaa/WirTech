@@ -1,14 +1,12 @@
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import { Suspense } from "react";
-
 import { Home } from "./components/Home/Home";
 import { Sobre } from "./components/Sobre/Sobre";
-import { NotFound } from "./components/NotFound/NotFound";
 import { Servicos } from "./components/Servicos/Servicos";
 import { Contato } from "./components/Contato/Contato";
-
 import { ExemplosSite } from "./components/Servicos/Pages/ExemplosSite";
 import { Template } from "./components/Template/Template";
+import { NotFound } from "./components/NotFound/NotFound";
 
 export const Router = () => {
   return (
